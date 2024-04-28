@@ -1,0 +1,86 @@
+{
+    "pairingNumber": 6285943398542,
+    "storeName": "MilkyWayy Market",
+    "self": false,
+    "noCommandNotice": false,
+    "openCommandAsGroup": false,
+    "bannerMenu": "default",
+    "storeGLink": "https://chat.whatsapp.com/KFfIKWVrRb8HHCLkXHkbvV",
+    "prefix": {
+        "singlePrefix": "#",
+        "noPrefix": "",
+        "multiPrefx": true
+    },
+    "auto": {
+        "read": true,
+        "post": false,
+        "response": true
+    },
+    "chat": 368970,
+    "storeGID": "120363228501744727@g.us",
+    "authorNumber": [
+        6285179841140,
+        6289683893322
+    ],
+    "mods": 6285179841140,
+    "prems": 6285179841140,
+    "sourceUrl": "https://chat.whatsapp.com/Bx5Hn6qK3l6Eic37oEoe8J",
+    "database": [
+        {
+            "id": "EDD63516901E",
+            "trigger": "assalamu'alaikum",
+            "response": "waalaikumussalam"
+        }
+    ],
+    "products": [
+        {
+            "id": "Q2Mw-ASfU",
+            "name": "Jasa Rakit Bot WhatsApp",
+            "price": 50000,
+            "description": "Bebas kostum request setiap request memiliki harga yang berbeda-beda"
+        },
+        {
+            "id": "dgmD-YUDr",
+            "name": "Join Murid Bot WhatsApp",
+            "price": 30000,
+            "description": " bakal diajarkan dasar-dasar JavaScript mulai dari awal sampai bot itu berjalan dan memiliki fitur"
+        }
+    ],
+    "payment": [
+        {
+            "method": "Rekening BRI",
+            "number": 0,
+            "accountName": "Null"
+        },
+        {
+            "method": "DANA",
+            "number": "0851-7984-1140",
+            "accountName": "rise.crystal"
+        },
+        {
+            "method": "GOPAY",
+            "number": "0851-7984-1140",
+            "accountName": "Rise Crystal"
+        },
+        {
+            "method": "Pulsa",
+            "number": "0851-7984-1140",
+            "note": "Kena rate + Rp5.000. Contoh: pesanan Rp30.000, transfer Rp35.000."
+        }
+    ],
+    "apikey": [
+        {
+            "https://api.zahwazein.xyz": "",
+            "https://skizo.tech": "SULE",
+            "https://api.openai.com": "",
+            "https://api.betabotz.org": "",
+            "https://shot.screenshotapi.net": "",
+            "https://api.apiflash.com": ""
+        }
+    ],
+    "authorName": "Rise Crystal",
+    "autobc": false,
+    "autobcgcEnabled": false,
+    "isEnable": true,
+    "analyzeTag": true
+}
