@@ -1,5 +1,14 @@
-# Perubahan pada: Sun Apr 28 15:47:56 SEAST 2024
-# Perubahan pada: Sun Apr 28 15:51:11 SEAST 2024
-# Perubahan pada: Sun Apr 28 15:51:42 SEAST 2024
-# Perubahan pada: Sun Apr 28 15:53:05 SEAST 2024
-solid.txtsolid.txt
+README.md
+database
+event
+examples
+index.js
+install.sh
+lib
+main.js
+media
+package-lock.json
+package.json
+plugins
+solid.txt
+uploadgit.sh

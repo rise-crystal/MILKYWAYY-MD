@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Tambahkan file/folder yang sudah di-upload ke dalam .gitignore
-echo "solid.txt" >> .gitignore
+# Menambahkan semua file ke dalam .gitignore
+ls >> .gitignore
 
 # Hapus baris yang kosong dari .gitignore
 sed -i '/^[[:space:]]*$/d' .gitignore
@@ -10,7 +10,7 @@ sed -i '/^[[:space:]]*$/d' .gitignore
 git add .
 
 # Commit perubahan dengan pesan
-git commit -m "Menambahkan solid.txt ke .gitignore secara otomatis"
+git commit -m "Commit otomatis: $(date)"
 
 # Push perubahan ke GitHub
 git push origin main
