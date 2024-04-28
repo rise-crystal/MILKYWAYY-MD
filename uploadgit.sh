@@ -5,7 +5,12 @@ tanggal=$(date)
 
 # Data history yang akan ditambahkan
 data_history="# Perubahan pada: $tanggal"
+
+# Menambahkan data history ke dalam .gitignore
 echo "$data_history" >> .gitignore
+
+# Menambahkan garis pembatas
+echo "########################################" >> .gitignore
 
 # Mendapatkan daftar file yang ada dalam direktori saat ini
 file_list=$(ls)
@@ -22,7 +27,10 @@ done <<< "$file_list"
 # Hapus baris yang kosong dari .gitignore
 sed -i '/^[[:space:]]*$/d' .gitignore
 
-# Tambahkan semua perubahan ke dalam commit
+# Menambahkan garis pembatas
+echo "########################################" >> .gitignore
+
+# Tambahkan semua perubahan ke dalam staging area
 git add .
 
 # Commit perubahan dengan pesan
