@@ -25,6 +25,9 @@ fi
 # Tambahkan file/folder yang sudah di-upload ke dalam .gitignore
 git ls-files --cached --ignored --exclude-standard | grep -v '^#' >> .gitignore
 
+# Hapus baris yang tidak mengandung karakter dari .gitignore
+sed -i '/^[[:space:]]*$/d' .gitignore
+
 # Tambahkan semua perubahan ke dalam commit
 git add .
 
