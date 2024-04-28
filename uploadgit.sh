@@ -22,6 +22,9 @@ else
   echo "File .gitignore baru telah dibuat dan history berhasil ditambahkan."
 fi
 
+# Tambahkan file/folder yang sudah di-upload ke dalam .gitignore
+git ls-files --cached --ignored --exclude-standard | grep -v '^#' >> .gitignore
+
 # Tambahkan semua perubahan ke dalam commit
 git add .
 
