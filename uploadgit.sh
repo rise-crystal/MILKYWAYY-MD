@@ -7,7 +7,9 @@ tanggal=$(date)
 data_history="# Perubahan pada: $tanggal"
 
 # Menambahkan data history ke dalam .gitignore
-echo "$data_history" >> .gitignore
+if ! grep -q "^$data_history$" .gitignore; then
+    echo "$data_history" >> .gitignore
+fi
 
 # Menambahkan garis pembatas
 echo "########################################" >> .gitignore
