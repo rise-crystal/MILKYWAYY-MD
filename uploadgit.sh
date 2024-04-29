@@ -13,7 +13,7 @@ echo "$data_history" >> .gitignore
 echo "########################################" >> .gitignore
 
 # Mendapatkan daftar file yang ada dalam direktori saat ini
-file_list=$(ls)
+file_list=$(find . -type f)
 
 # Iterasi melalui setiap file dalam daftar
 while IFS= read -r file; do
