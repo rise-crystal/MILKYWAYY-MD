@@ -12,8 +12,8 @@ echo "$data_history" >> .gitignore
 # Menambahkan garis pembatas
 echo "########################################" >> .gitignore
 
-# Mendapatkan daftar file yang ada dalam direktori saat ini
-file_list=$(find . -type f)
+# Mendapatkan daftar file yang ada dalam direktori saat ini, kecuali folder .git dan node_modules
+file_list=$(find . -type f -not -path "./.git/*" -not -path "./node_modules/*")
 
 # Iterasi melalui setiap file dalam daftar
 while IFS= read -r file; do
