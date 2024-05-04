@@ -41,13 +41,5 @@ git add .
 # Commit perubahan dengan pesan
 git commit -m "Commit otomatis: $tanggal"
 
-# Push perubahan ke GitHub dengan token akses
-git push https://github.com/rise-crystal/MILKYWAYY-MD.git main
-
-# Memeriksa kode keluaran perintah Git
-if [ $? -eq 0 ]; then
-    echo "Perubahan telah berhasil dipush ke GitHub."
-else
-    echo "Terjadi kesalahan saat melakukan push ke GitHub."
-    exit 1
-fi
+# Push perubahan ke GitHub
+git -u push origin main
