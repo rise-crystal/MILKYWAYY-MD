@@ -10,4 +10,4 @@ pkg install git -y
 pkg install tesseract -y
 
 npm install 
-npm start
+npm run serv
