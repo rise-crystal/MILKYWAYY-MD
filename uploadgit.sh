@@ -41,5 +41,13 @@ git add .
 # Commit perubahan dengan pesan
 git commit -m "Commit otomatis: $tanggal"
 
-# Push perubahan ke GitHub
-git push origin main
+# Push perubahan ke GitHub dengan token akses
+git push https://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@github.com/<username>/<reponame>.git main
+
+# Memeriksa kode keluaran perintah Git
+if [ $? -eq 0 ]; then
+    echo "Perubahan telah berhasil dipush ke GitHub."
+else
+    echo "Terjadi kesalahan saat melakukan push ke GitHub."
+    exit 1
+fi
