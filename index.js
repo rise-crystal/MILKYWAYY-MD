@@ -10,14 +10,12 @@ const __dirname = dirname(__filename);
 
 let startTime = new Date();
 
-// Membuat server HTTP yang memberikan respons 'Yo!' pada setiap permintaan
 createServer((req, res) => {
   console.log(`Permintaan baru di ${req.url}!`);
   res.write('Yo!');
   res.end();
 }).listen(8080);
 
-// Fungsi untuk memulai proses anak dan mengelola restart
 function start() {
   const args = [join(__dirname, 'main.js'), ...process.argv.slice(2)];
   const p = spawn(process.argv[0], args, { stdio: ['inherit', 'inherit', 'inherit', 'ipc'] })
@@ -27,7 +25,6 @@ function start() {
         p.kill();
         start();
       }
-      // Tambahkan blok if-else sesuai kebutuhan
     })
     .on('exit', (_, code) => {
       if (code !== 0) start();
@@ -38,5 +35,4 @@ function start() {
     });
 }
 
-// Memulai proses utama
 start();

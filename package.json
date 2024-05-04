@@ -1,50 +1,66 @@
 {
-  "name": "milkywayy-md",
-  "version": "1.0.0",
-  "description": "Milky Way original base Arifi Razzaq",
+  "name": "highest-meta-md",
+  "description": "razzaq multi device, original base Arifi Razzaq",
   "main": "index.js",
   "type": "module",
   "directories": {
+    "example": "examples",
     "lib": "lib"
   },
   "scripts": {
-    "test": "node index.js",
-    "start": "node index.js"
+    "test": "echo \"error: no test specified\" && exit 1",
+    "start": "node index.js --pairing-code"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vrzaq/milkywayy-md.git"
+    "url": "git+https://github.com/vrzaq/razzaq-md.git"
   },
   "keywords": [
     "bot-whatsapp"
   ],
-  "author": "arifi razzaq",
+  "author": "arifi razzaq <vr.zaq1@gmail.com> (https://youtube.com/@khirazzdev?si=pWE56RblRs85a_Bp)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vrzaq/milkywayy-md/issues"
+    "url": "https://github.com/vrzaq/razzaq-md/issues"
   },
-  "homepage": "https://github.com/vrzaq/milkywayy-md#readme",
+  "homepage": "https://github.com/vrzaq/razzaq-md#readme",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
     "awesome-phonenumber": "^6.4.0",
     "chalk": "^5.3.0",
     "cheerio": "^1.0.0-rc.12",
+    "chokidar": "^3.6.0",
+    "cli-table": "^0.3.11",
     "csv-writer": "^1.6.0",
+    "fb-video-downloader": "^1.0.3",
+    "file-type": "^16.5.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "google-it": "^1.6.4",
+    "got": "^14.2.1",
     "http": "^0.0.1-security",
     "human-readable": "^0.2.1",
+    "javascript-obfuscator": "^4.1.0",
     "jimp": "^0.16.13",
     "moment-timezone": "^0.5.45",
+    "newsapi": "^2.4.1",
     "node-cron": "^3.0.3",
+    "node-notifier": "^10.0.1",
     "node-printer": "^1.0.4",
+    "node-webpmux": "^3.2.0",
     "openai": "^4.28.4",
+    "parse-ms": "^4.0.0",
     "pdfkit": "^0.14.0",
+    "qrcode": "^1.5.3",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "rxjs": "^7.8.1",
-    "string-similarity": "^4.0.4",
+    "sudoku": "^0.0.3",
+    "svg2img": "^1.0.0-beta.2",
     "tesseract.js": "^5.0.5",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "yt-search": "^2.10.4",
+    "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -54,5 +70,6 @@
   "presets": [
     "@babel/preset-react",
     "@babel/preset-env"
-  ]
+  ],
+  "version": "1.0.0"
 }

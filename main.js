@@ -1,3 +1,10 @@
+/* Copyright C Arifi Razzaq 
+
+  This Base Student Was Written By Arifi Razzaq
+  Contact My WhatsApp https://wa.me/6283193905842
+  Subscribe My YouTube Channel (Arifi Razzaq Ofc)
+*/
+
 import newWASocket, {
   useMultiFileAuthState,
   PHONENUMBER_MCC,
@@ -11,11 +18,10 @@ import pino from 'pino';
 import { createRequire } from 'module';
 import { connectionUpdate } from './event/connection.js';
 import { onMessageUpsert } from './event/message.js';
-import { sockets } from './lib/sockets.js';
+import { Sockets } from './lib/sockets.js';
 import serialize from './lib/serialize.js';
 import chalk from 'chalk';
 import options, { logger, store } from './lib/options.js';
-import { CustomGroupEvents } from './event/groups.js';
 
 class CustomError extends Error {
   constructor(message) {
@@ -26,6 +32,7 @@ class CustomError extends Error {
 }
 
 let phoneNumber = db.config.pairingNumber;
+
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code");
 const useMobile = process.argv.includes("--mobile");
 const rl = readline.createInterface({
@@ -88,12 +95,9 @@ async function start() {
         }
       )
     );
-
-    sockets(conn);
-    store?.bind(conn.ev);
-
-    const messageCollection = new CollectionModel();
-
+    conn.newWASocket = newWASocket;
+    conn.messageCollection = new CollectionModel();
+    
     if (pairingCode && !conn.authState.creds.registered) {
       if (useMobile) {
         throw new CustomError('Cannot use pairing code with mobile API');
@@ -125,34 +129,44 @@ async function start() {
       if (events["creds.update"]) {
         await saveCreds();
       }
+      if (events["call"]) {
+        const result = events["call"][0];
+        if (!db.config.anti) { db.config.anti = {} }
+        if (!db.config.anti.rejectCall) { db.config.anti.rejectCall = false }
+        if (db.config.anti.rejectCall === true) {
+          return conn.rejectCall(result.id, result.from)
+        } else if (db.config.anti.rejectCall === false) {
+          const list = {
+            text: " mohon maaf Mama pemilik nomor ini sedang berada di luar jangkauan saya adalah bot AI buatannya silakan pilih opsi di bawah ini apa yang ingin anda bicarakan.",
+            footer: db.config.botName,
+            buttonText: 'Tap di sini!',
+            listType: conn.newWASocket.proto.Message.ListMessage.ListType.PRODUCT_LIST,
+            sections: []
+          };
+        }
+      };
       if (events["messages.upsert"]) {
         const messages = events["messages.upsert"].messages;
         let index = 0;
         do {
           const message = messages[index];
-          const serializedMessage = new serialize(message, conn);
-          messageCollection.add(index, serializedMessage);
+          const sockets = new Sockets(db.chats);
+          Object.getOwnPropertyNames(Object.getPrototypeOf(sockets)).forEach(property => {
+            conn[property] = sockets[property];
+          });
+
+          const serializedMessage = new serialize(message, conn)
+          conn.messageCollection.add(index, serializedMessage);
+          store.bind(conn.ev);
           onMessageUpsert({ m: serializedMessage, store }, conn);
           index++;
         } while (index < messages.length);
       }
-      if (events["group-participants.update"]) {
-        // Membuat instance dari kelas CustomGroupEvents dengan menyediakan parameter events, conn, dan db
-        const groupEvents = new CustomGroupEvents(events, conn, db); // Sesuaikan dengan nilai events, conn, dan db yang sesuai
-        
-        // Memanggil method handleGroupParticipantsUpdate dari instance groupEvents
-        await groupEvents.handleGroupParticipantsUpdate();
-      };
     });
 
-    // Additional features based on AI suggestions
-
-    // Feature 1: Use Set
-    const messageSet = messageCollection.toSet();
+    const messageSet = conn.messageCollection.toSet();
     console.log("Message Set:", messageSet);
-
-    // Feature 2: Check if the collection is an array
-    const isArray = messageCollection.isArray();
+    const isArray = conn.messageCollection.isArray();
     console.log("Is Collection an Array:", isArray);
   } catch (error) {
     console.error(`[${error.timestamp}] An error occurred:`, error.message);
@@ -162,3 +176,9 @@ async function start() {
 }
 
 start();
+
+process.on('uncaughtException', (error) => {
+  if (error.message.includes('Connection Closed')) return;
+  if (error.message.includes('Timed out')) return;
+  console.error('Error:', error);
+});

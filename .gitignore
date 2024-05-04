@@ -1,3 +1,5 @@
+# /node_modules/
+/node_modules/
 # Perubahan pada: Sun Apr 28 16:05:03 SEAST 2024
 ########################################
 README.md
@@ -77,4 +79,75 @@ uploadgit.sh
 ########################################
 # Perubahan pada: Mon, Apr 29, 2024  8:21:49 PM
 ########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  1:24:54 PM
+########################################
+./database/asahotak.json
+./database/chats.json
+./database/chats.json.bak
+./database/cmd.json
+./database/config.json.bak
+./database/co_owner.json
+./database/family100.json
+./database/game.json
+./database/group.json.bak
+./database/inventory.json
+./database/mute.json
+./database/pilihanganda.json
+./database/premium.json
+./database/siapakahaku.json
+./database/sticker.json
+./database/susunkata.json
+./database/tebakbendera.json
+./database/tebakgambar.json
+./database/tebakkata.json
+./database/tebaklagu.json
+./database/tekateki.json
+./database/user.json.bak
+./database/userchat.json
+./eng.traineddata
+./event/call.js
+./event/machine/Arifi Razzaq
+./event/machine/asset/color.js
+./event/machine/asset/function.js
+./event/machine/asset/inventory.js
+./event/machine/asset/level.js
+./event/machine/asset/premium.js
+./event/machine/asset/sticker.js
+./event/machine/evacuation.js
+./event/machine/globally.js
+./event/machine/management.js
+./event/modem/Arifi Razzaq
+./event/modem/case.js
+./event/modem/index.js
+./event/modem/rxjs.js
+./event/worker/engine/down-youtube.js
+./event/worker/engine/down-ytm4a.js
+./event/worker/engine/down-ytmp4.js
+./event/worker/engine/down-ytplaylist.js
+./event/worker/engine/enhance.js
+./event/worker/engine/instagram.js
+./event/worker/engine/search-youtube.js
+./event/worker/engine/telegraph.js
+./event/worker/engine/tiktokdl.js
+./event/worker/engine/twitter.js
+./event/worker/engine/youtube.js
+./event/worker/work/down-drive.js
+./event/worker/work/down-instagram.js
+./event/worker/work/down-tiktok.js
+./event/worker/work/down-twitter.js
+./event/worker/work/download-facebook.js
+./event/worker/work/tools-removebg.js
+./event/worker/work/youtube.js
+./event/worker/work/_Base
+./lib/emitter.js
+./lib/exif.js
+./lib/font.js
+./media/audio/Arifi Razzaq
+./media/file/@whiskeysockets.zip
+./media/image/Arifi Razzaq
+./media/image/background.jpg
+./media/sticker/Arifi Razzaq
+./media/video/Arifi Razzaq
+./plugins/owners/premium.js
 ########################################
