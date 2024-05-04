@@ -42,4 +42,4 @@ git add .
 git commit -m "Commit otomatis: $tanggal"
 
 # Push perubahan ke GitHub
-git -u push origin main
+git push origin main
