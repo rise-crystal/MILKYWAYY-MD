@@ -1,120 +1,105 @@
 {
-  "pairingNumber": "6283193905842",
-  "storeName": "Razzaq Market",
-  "self": true,
-  "bannerMenu": "default",
-  "storeGLink": "https://chat.whatsapp.com/FsRrkgDAUiTIaMJky1ar3K",
-  "prefix": {
-    "singlePrefix": "#",
-    "noPrefix": "",
-    "multiPrefx": true
-  },
-  "auto": {
-    "read": true,
-    "post": false,
-    "autoResponse": true
-  },
-  "chat": 896393,
-  "storeGID": "120363194016202398@g.us",
-  "authorNumber": [
-    "6283193905842"
-  ],
-  "mods": [
-    "6283193905842"
-  ],
-  "prems": [
-    "6283193905842"
-  ],
-  "sourceUrl": "https://whatsapp.com/channel/0029VaQvMcp4o7qSiKGs0Y2D",
-  "database": [
-    {
-      "id": "EDD63516901E",
-      "trigger": "assalamu'alaikum",
-      "response": "waalaikumussalam"
+    "pairingNumber": "6285943398542",
+    "storeName": "Razzaq Market",
+    "self": true,
+    "bannerMenu": "default",
+    "storeGLink": "https://chat.whatsapp.com/Bx5Hn6qK3l6Eic37oEoe8J",
+    "prefix": {
+        "singlePrefix": "#",
+        "noPrefix": "",
+        "multiPrefx": true
     },
-    {
-      "id": "E9C27A4C9E5C",
-      "trigger": "assalamualaikum",
-      "response": "Waalaikumussalam Warahmatullahi Wabarakatuh"
+    "auto": {
+        "read": true,
+        "post": false,
+        "autoResponse": true
     },
-    {
-      "id": "0548B4B4BE3C",
-      "trigger": "assalmmualikum",
-      "response": "Waalaikumussalam Warahmatullahi wabarakatuh"
+    "chat": 896393,
+    "storeGID": "120363194016202398@g.us",
+    "authorNumber": [
+        "6283193905842"
+    ],
+    "mods": [
+        "6283193905842"
+    ],
+    "prems": [
+        "6283193905842"
+    ],
+    "sourceUrl": "https://chat.whatsapp.com/LcDYaoYpBssC2ta6pmbQpF",
+    "database": [
+        {
+            "id": "EDD63516901E",
+            "trigger": "assalamu'alaikum",
+            "response": "waalaikumussalam"
+        },
+        {
+            "id": "E9C27A4C9E5C",
+            "trigger": "assalamualaikum",
+            "response": "Waalaikumussalam Warahmatullahi Wabarakatuh"
+        },
+        {
+            "id": "0548B4B4BE3C",
+            "trigger": "assalmmualikum",
+            "response": "Waalaikumussalam Warahmatullahi wabarakatuh"
+        },
+        {
+            "id": "2058F5D9100A",
+            "trigger": "asalamualaikum",
+            "response": "Waalaikumussalam Warahmatullahi wabarakatuh"
+        }
+    ],
+    "products": [
+        {
+            "id": "Q2Mw-ASfU",
+            "name": "Jasa Rakit Bot WhatsApp",
+            "price": "50000",
+            "description": "Bebas kostum request setiap request memiliki harga yang berbeda-beda"
+        },
+        {
+            "id": "dgmD-YUDr",
+            "name": "Join Murid Bot WhatsApp",
+            "price": "30000",
+            "description": " bakal diajarkan dasar-dasar JavaScript mulai dari awal sampai bot itu berjalan dan memiliki fitur"
+        },
+        {
+            "id": "hupF-CGKa",
+            "name": "Jasa Request Fitur Bot WhatsApp",
+            "price": "30000",
+            "description": " harga Rp30.000 "
+        }
+    ],
+    "payment": [
+        {
+            "method": "Saweria",
+            "number": "https://saweria.co/risecrystal0",
+            "accountName": "risecrystal0"
+        }
+    ],
+    "apikey": [
+        {
+            "https://api.zahwazein.xyz": "zenzkey_d928ce4e47d5",
+            "https://skizo.tech": "SULE",
+            "https://api.openai.com": "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",
+            "https://api.betabotz.org": "Fby9a652",
+            "https://shot.screenshotapi.net": "YAFZEGS-7ATMKNF-QNYB6XV-JS47TFV",
+            "https://api.apiflash.com": "a2dc64c80bbc4f51a063d2cb353d05dc"
+        }
+    ],
+    "authorName": "Arifi Razzaq",
+    "botName": "Insensitive Bot",
+    "noCommandNotice": false,
+    "styleMenu": {
+        "prefix": "╭─",
+        "line": "│",
+        "closing": "╰"
     },
-    {
-      "id": "2058F5D9100A",
-      "trigger": "asalamualaikum",
-      "response": "Waalaikumussalam Warahmatullahi wabarakatuh"
+    "openCommandAsGroup": false,
+    "autobcgcEnabled": false,
+    "menuType": "IMAGE",
+    "font": "smallcaps",
+    "analyzeTag": false,
+    "isEnable": true,
+    "anti": {
+        "rejectCall": false
     }
-  ],
-  "products": [
-    {
-      "id": "Q2Mw-ASfU",
-      "name": "Jasa Rakit Bot WhatsApp",
-      "price": "50000",
-      "description": "Bebas kostum request setiap request memiliki harga yang berbeda-beda"
-    },
-    {
-      "id": "dgmD-YUDr",
-      "name": "Join Murid Bot WhatsApp",
-      "price": "30000",
-      "description": " bakal diajarkan dasar-dasar JavaScript mulai dari awal sampai bot itu berjalan dan memiliki fitur"
-    },
-    {
-      "id": "hupF-CGKa",
-      "name": "Jasa Request Fitur Bot WhatsApp",
-      "price": "30000",
-      "description": " harga Rp30.000 "
-    }
-  ],
-  "payment": [
-    {
-      "method": "Rekening BRI",
-      "number": "5320-01-018862-53-6",
-      "accountName": "ARIFI RAZZAQ"
-    },
-    {
-      "method": "DANA",
-      "number": "0831-9390-5842",
-      "accountName": "ARIFI RAZZAQ"
-    },
-    {
-      "method": "GOPAY",
-      "number": "0831-9390-5842",
-      "accountName": "ARIFI RAZZAQ"
-    },
-    {
-      "method": "Pulsa",
-      "number": "0831-9390-5842",
-      "note": "Kena rate + Rp5.000. Contoh: pesanan Rp30.000, transfer Rp35.000."
-    }
-  ],
-  "apikey": [
-    {
-      "https://api.zahwazein.xyz": "zenzkey_d928ce4e47d5",
-      "https://skizo.tech": "SULE",
-      "https://api.openai.com": "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",
-      "https://api.betabotz.org": "Fby9a652",
-      "https://shot.screenshotapi.net": "YAFZEGS-7ATMKNF-QNYB6XV-JS47TFV",
-      "https://api.apiflash.com": "a2dc64c80bbc4f51a063d2cb353d05dc"
-    }
-  ],
-  "authorName": "Arifi Razzaq",
-  "botName": "Insensitive Bot",
-  "noCommandNotice": false,
-  "styleMenu": {
-    "prefix": "╭─",
-    "line": "│",
-    "closing": "╰"
-  },
-  "openCommandAsGroup": false,
-  "autobcgcEnabled": false,
-  "menuType": "IMAGE",
-  "font": "smallcaps",
-  "analyzeTag": false,
-  "isEnable": true,
-  "anti": {
-    "rejectCall": false
-  }
 }

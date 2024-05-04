@@ -1,5 +1,5 @@
 {
-  "name": "highest-meta-md",
+  "name": "milkywayy-md",
   "description": "razzaq multi device, original base Arifi Razzaq",
   "main": "index.js",
   "type": "module",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "test": "echo \"error: no test specified\" && exit 1",
-    "start": "node index.js --pairing-code"
+    "start": "node index.js --pairing-code",
+    "serve": "node indexjs"
   },
   "repository": {
     "type": "git",

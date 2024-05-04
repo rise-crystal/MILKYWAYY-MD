@@ -1,1 +1,22 @@
 hello word
+
+ {
+       "method": "Rekening BRI",
+       "number": "5320-01-018862-53-6",
+       "accountName": "ARIFI RAZZAQ"
+     },
+     {
+       "method": "DANA",
+       "number": "0831-9390-5842",
+       "accountName": "ARIFI RAZZAQ"
+     },
+     {
+       "method": "GOPAY",
+       "number": "0831-9390-5842",
+       "accountName": "ARIFI RAZZAQ"
+     },
+     {
+       "method": "Pulsa",
+       "number": "0831-9390-5842",
+       "note": "Kena rate + Rp5.000. Contoh: pesanan Rp30.000, transfer Rp35.000."
+     }
