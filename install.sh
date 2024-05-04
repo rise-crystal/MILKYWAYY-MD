@@ -9,5 +9,5 @@ pkg install ffmpeg -y
 pkg install git -y
 pkg install tesseract -y
 
-npm install
+npm install 
 npm start
