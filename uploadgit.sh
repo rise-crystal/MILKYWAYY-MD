@@ -42,7 +42,7 @@ git add .
 git commit -m "Commit otomatis: $tanggal"
 
 # Push perubahan ke GitHub dengan token akses
-git push https://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@github.com/rise-crystal/MILKYWAYY-MD.git main
+git push https://github.com/rise-crystal/MILKYWAYY-MD.git main
 
 # Memeriksa kode keluaran perintah Git
 if [ $? -eq 0 ]; then
