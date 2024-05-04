@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Konfigurasi Git untuk menonaktifkan konversi otomatis line ending
-git config --global core.autocrlf false
+git config --global core.autocrlf true
 
 # Tanggal hari ini
 tanggal=$(date)
