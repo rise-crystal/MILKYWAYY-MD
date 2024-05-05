@@ -18,7 +18,7 @@ fi
 echo "########################################" >> .gitignore
 
 # Mendapatkan daftar file yang ada dalam direktori saat ini, kecuali folder .git dan node_modules
-file_list=$(find . -type f -not -path "./.git/*" -not -path "./node_modules/*")
+file_list=$(file_list=$(find . -type f))
 
 # Iterasi melalui setiap file dalam daftar
 while IFS= read -r file; do
