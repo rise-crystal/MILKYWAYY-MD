@@ -17,15 +17,15 @@ fi
 # Menambahkan garis pembatas
 echo "########################################" >> .gitignore
 
-# Mendapatkan daftar file yang ada dalam direktori saat ini, kecuali folder .git dan node_modules
-file_list=$(file_list=$(find . -type f))
+# Mendapatkan daftar file dan folder yang ada dalam direktori saat ini, kecuali folder .git dan node_modules
+file_list=$(find . -not -path "./.git/*" -not -path "./node_modules/*")
 
-# Iterasi melalui setiap file dalam daftar
-while IFS= read -r file; do
-    # Memeriksa apakah file sudah ada dalam .gitignore
-    if ! grep -qF "$file" .gitignore; then
-        # Jika tidak, tambahkan file ke .gitignore
-        echo "$file" >> .gitignore
+# Iterasi melalui setiap file dan folder dalam daftar
+while IFS= read -r entry; do
+    # Memeriksa apakah file atau folder sudah ada dalam .gitignore
+    if ! grep -qF "$entry" .gitignore; then
+        # Jika tidak, tambahkan file atau folder ke .gitignore
+        echo "$entry" >> .gitignore
     fi
 done <<< "$file_list"
 
