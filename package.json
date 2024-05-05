@@ -1,16 +1,16 @@
 {
-  "name": "milkywayy-md",
+  "name": "highest-meta-md",
+  "version": "9.4-pro",
   "description": "razzaq multi device, original base Arifi Razzaq",
   "main": "index.js",
   "type": "module",
   "directories": {
-    "example": "examples",
-    "lib": "lib"
+    "lib": "lib",
+    "event": "event"
   },
   "scripts": {
     "test": "echo \"error: no test specified\" && exit 1",
-    "start": "node index.js --pairing-code",
-    "serve": "node index.js"
+    "start": "node index.js --pairing-code"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,11 @@
   "keywords": [
     "bot-whatsapp"
   ],
-  "author": "arifi razzaq <vr.zaq1@gmail.com> (https://youtube.com/@khirazzdev?si=pWE56RblRs85a_Bp)",
+  "author": {
+    "name": "arifi razzaq",
+    "email": "vr.zaq1@gmail.com",
+    "url": "https://youtube.com/@khirazzdev?si=pWE56RblRs85a_Bp"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vrzaq/razzaq-md/issues"
@@ -71,6 +75,5 @@
   "presets": [
     "@babel/preset-react",
     "@babel/preset-env"
-  ],
-  "version": "1.0.0"
+  ]
 }

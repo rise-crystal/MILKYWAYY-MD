@@ -212,15 +212,11 @@ uploadgit.sh
 # Perubahan pada: Sat, May  4, 2024  9:29:14 PM
 ########################################
 ########################################
-# Perubahan pada: Sat, May  4, 2024  9:34:20 PM
+# Perubahan pada: Sun, May  5, 2024  7:36:56 AM
 ########################################
-########################################
-# Perubahan pada: Sat, May  4, 2024  9:44:30 PM
-########################################
-########################################
-# Perubahan pada: Sat, May  4, 2024 10:46:34 PM
-########################################
-########################################
-# Perubahan pada: Sat, May  4, 2024 11:08:19 PM
-########################################
+./event/worker/work/down-youtube.js
+./event/worker/work/down-ytm4a.js
+./event/worker/work/down-ytmp4.js
+./event/worker/work/down-ytplaylist.js
+./event/worker/work/search-youtube.js
 ########################################
