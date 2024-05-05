@@ -1,0 +1,272 @@
+# /node_modules/
+/node_modules/
+# Perubahan pada: Sun Apr 28 16:05:03 SEAST 2024
+########################################
+README.md
+database
+event
+examples
+index.js
+install.sh
+lib
+main.js
+media
+package-lock.json
+package.json
+plugins
+solid.txt
+uploadgit.sh
+########################################
+# Perubahan pada: Mon, Apr 29, 2024  8:14:37 PM
+########################################
+./.gitignore
+./api/api.js
+./api/data.js
+./database/config.json
+./database/group.json
+./database/user.json
+./event/connection.js
+./event/groups.js
+./event/message.js
+./examples/example.js
+./index.js
+./install.sh
+./lib/database.js
+./lib/function.js
+./lib/handler.js
+./lib/options.js
+./lib/serialize.js
+./lib/sockets.js
+./main.js
+./media/audio/.empty
+./media/image/.empty
+./media/image/background.jpeg
+./media/sticker/.empty
+./media/video/.empty
+./package-lock.json
+./package.json
+./plugins/func/antilink-func.js
+./plugins/game/mining.js
+./plugins/group/action.js
+./plugins/group/tagall.js
+./plugins/others/cuaca.js
+./plugins/others/gempa.js
+./plugins/others/menu.js
+./plugins/others/owner.js
+./plugins/others/ping.js
+./plugins/owners/addcmd.js
+./plugins/owners/addprem.js
+./plugins/owners/autobc.js
+./plugins/owners/autoremove.js
+./plugins/owners/bcgc.js
+./plugins/owners/checkmode.js
+./plugins/owners/delcmd.js
+./plugins/owners/eval.js
+./plugins/owners/groupcreate.js
+./plugins/owners/mode.js
+./plugins/owners/nocommandnotify.js
+./plugins/owners/opencommandnotify.js
+./plugins/owners/restart.js
+./plugins/owners/setlink.js
+./plugins/owners/setwelcome.js
+./plugins/store/addlist.js
+./README.md
+./solid.txt
+./uploadgit.sh
+########################################
+# Perubahan pada: Mon, Apr 29, 2024  8:16:28 PM
+########################################
+########################################
+# Perubahan pada: Mon, Apr 29, 2024  8:21:49 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  1:24:54 PM
+########################################
+./database/asahotak.json
+./database/chats.json
+./database/chats.json.bak
+./database/cmd.json
+./database/config.json.bak
+./database/co_owner.json
+./database/family100.json
+./database/game.json
+./database/group.json.bak
+./database/inventory.json
+./database/mute.json
+./database/pilihanganda.json
+./database/premium.json
+./database/siapakahaku.json
+./database/sticker.json
+./database/susunkata.json
+./database/tebakbendera.json
+./database/tebakgambar.json
+./database/tebakkata.json
+./database/tebaklagu.json
+./database/tekateki.json
+./database/user.json.bak
+./database/userchat.json
+./eng.traineddata
+./event/call.js
+./event/machine/Arifi Razzaq
+./event/machine/asset/color.js
+./event/machine/asset/function.js
+./event/machine/asset/inventory.js
+./event/machine/asset/level.js
+./event/machine/asset/premium.js
+./event/machine/asset/sticker.js
+./event/machine/evacuation.js
+./event/machine/globally.js
+./event/machine/management.js
+./event/modem/Arifi Razzaq
+./event/modem/case.js
+./event/modem/index.js
+./event/modem/rxjs.js
+./event/worker/engine/down-youtube.js
+./event/worker/engine/down-ytm4a.js
+./event/worker/engine/down-ytmp4.js
+./event/worker/engine/down-ytplaylist.js
+./event/worker/engine/enhance.js
+./event/worker/engine/instagram.js
+./event/worker/engine/search-youtube.js
+./event/worker/engine/telegraph.js
+./event/worker/engine/tiktokdl.js
+./event/worker/engine/twitter.js
+./event/worker/engine/youtube.js
+./event/worker/work/down-drive.js
+./event/worker/work/down-instagram.js
+./event/worker/work/down-tiktok.js
+./event/worker/work/down-twitter.js
+./event/worker/work/download-facebook.js
+./event/worker/work/tools-removebg.js
+./event/worker/work/youtube.js
+./event/worker/work/_Base
+./lib/emitter.js
+./lib/exif.js
+./lib/font.js
+./media/audio/Arifi Razzaq
+./media/file/@whiskeysockets.zip
+./media/image/Arifi Razzaq
+./media/image/background.jpg
+./media/sticker/Arifi Razzaq
+./media/video/Arifi Razzaq
+./plugins/owners/premium.js
+########################################
+# Perubahan pada: Sat, May  4, 2024  4:32:41 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  4:46:46 PM
+########################################
+########################################
+# Perubahan pada: Sat May  4 17:49:08 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sat May  4 18:16:17 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sat May  4 18:21:36 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  6:25:13 PM
+########################################
+########################################
+# Perubahan pada: Sat May  4 18:46:57 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sat May  4 18:49:57 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sat May  4 18:52:29 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sat May  4 18:53:52 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  7:07:01 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  7:07:32 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  7:25:40 PM
+########################################
+./git
+########################################
+# Perubahan pada: Sat, May  4, 2024  7:29:44 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  7:30:54 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  7:32:52 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  7:35:07 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  9:25:52 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  9:28:22 PM
+########################################
+########################################
+# Perubahan pada: Sat, May  4, 2024  9:29:14 PM
+########################################
+########################################
+# Perubahan pada: Sun, May  5, 2024  7:36:56 AM
+########################################
+./event/worker/work/down-youtube.js
+./event/worker/work/down-ytm4a.js
+./event/worker/work/down-ytmp4.js
+./event/worker/work/down-ytplaylist.js
+./event/worker/work/search-youtube.js
+########################################
+# Perubahan pada: Sun, May  5, 2024  7:55:46 AM
+########################################
+########################################
+# Perubahan pada: Sun, May  5, 2024  7:59:07 AM
+########################################
+########################################
+# Perubahan pada: Sun, May  5, 2024  9:30:40 AM
+########################################
+########################################
+# Perubahan pada: Sun, May  5, 2024  9:39:35 AM
+########################################
+########################################
+# Perubahan pada: Sun, May  5, 2024  9:47:55 AM
+########################################
+########################################
+# Perubahan pada: Sun, May  5, 2024  9:59:10 AM
+########################################
+########################################
+# Perubahan pada: Sun, May  5, 2024 10:07:53 AM
+########################################
+########################################
+# Perubahan pada: Sun, May  5, 2024 10:30:58 AM
+########################################
+./config.json
+########################################
+# Perubahan pada: Sun, May  5, 2024 10:35:57 AM
+########################################
+########################################
+# Perubahan pada: Sun May  5 10:49:28 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sun May  5 10:51:41 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sun May  5 10:51:54 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sun May  5 10:53:08 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sun May  5 10:54:38 SEAST 2024
+########################################
+./database/temp
+########################################
+# Perubahan pada: Sun May  5 12:25:54 SEAST 2024
+########################################
+########################################
+# Perubahan pada: Sun May  5 12:28:09 SEAST 2024
+########################################
+########################################
