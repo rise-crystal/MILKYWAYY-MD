@@ -10,7 +10,7 @@ tanggal=$(date)
 data_history="# Perubahan pada: $tanggal"
 
 # Menambahkan data history ke dalam .gitignore
-if ! grep -q "^$data_history$" .gitignore; then
+if ! grep -qF "$data_history" .gitignore; then
     echo "$data_history" >> .gitignore
 fi
 
@@ -23,7 +23,7 @@ file_list=$(find . -type f -not -path "./.git/*" -not -path "./node_modules/*")
 # Iterasi melalui setiap file dalam daftar
 while IFS= read -r file; do
     # Memeriksa apakah file sudah ada dalam .gitignore
-    if ! grep -q "^$file$" .gitignore; then
+    if ! grep -qF "$file" .gitignore; then
         # Jika tidak, tambahkan file ke .gitignore
         echo "$file" >> .gitignore
     fi
@@ -42,4 +42,4 @@ git add .
 git commit -m "Commit otomatis: $tanggal"
 
 # Push perubahan ke GitHub
-git push origin main
+git -u push origin main
