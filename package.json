@@ -1,7 +1,7 @@
 {
-  "name": "highest-meta-md",
+  "name": "milkywayy-md",
   "version": "9.4-pro",
-  "description": "razzaq multi device, original base Arifi Razzaq",
+  "description": "Rise Crystal multi device, original base Arifi Razzaq",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -10,12 +10,12 @@
   },
   "scripts": {
     "test": "echo \"error: no test specified\" && exit 1",
-    "start": "node index.js --pairing-code"
+    "start": "node index.js --pairing-code",
     "serve": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vrzaq/razzaq-md.git"
+    "url": "git+https://github.com/rise-crystal/MILKYWAYY-MD.git"
   },
   "keywords": [
     "bot-whatsapp"
