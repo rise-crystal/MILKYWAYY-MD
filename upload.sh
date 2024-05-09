@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Tambahkan isi dari perintah ls ke dalam file .gitignore jika belum ada
-ls -d --ignore=".gitignore" */ >> .gitignore
+ls -d --ignore=".gitignore" --ignore="node_modules" */ >> .gitignore
 
-# Eksekusi git add untuk semua perubahan
-git add .
+# Eksekusi git add untuk semua perubahan kecuali folder node_modules
+git add . ':(exclude)node_modules'
 
 # Lakukan commit dengan pesan yang berisi tanggal dan waktu saat ini
 commit_message=$(date)
