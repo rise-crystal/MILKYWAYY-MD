@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Tambahkan isi dari perintah ls ke dalam file .gitignore jika belum ada
+ls --ignore=".gitignore" >> .gitignore
+
 # Eksekusi git add untuk semua perubahan
 git add .
 
