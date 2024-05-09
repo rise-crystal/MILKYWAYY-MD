@@ -1,0 +1,13 @@
+database/
+vent/    
+lib/     
+main.js  
+package.json       
+plugins/   
+session/
+eng.traineddata  
+index.js  
+lol.txt  
+media/   
+package-lock.json  
+README.md
