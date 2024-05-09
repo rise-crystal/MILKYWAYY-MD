@@ -20,7 +20,13 @@ main.js
 media
 package.json
 package-lock.json
-plugins
+plugins/
 README.md
-session
-upload.sh
+session/
+upload.sh/
+database/
+event/
+lib/
+media/
+plugins/
+session/
