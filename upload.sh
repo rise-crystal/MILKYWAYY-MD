@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Tambahkan isi dari perintah ls ke dalam file .gitignore jika belum ada
-ls -d --ignore=".gitignore" --ignore="node_modules" */ >> .gitignore
+# Tambahkan semua file dan folder kecuali .git dan node_modules ke dalam file .gitignore
+ls -a --ignore=".git" --ignore="node_modules" | sed '/^\.$/d' | sed '/^\.\.$/d' | sed '/^\.git$/d' | sed '/^node_modules$/d' >> .gitignore
 
 # Eksekusi git add untuk semua perubahan kecuali folder node_modules
 git add . -- ':!node_modules'
