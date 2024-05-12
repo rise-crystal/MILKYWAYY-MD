@@ -14,4 +14,4 @@ git commit -m "$commit_message"
 git pull origin main
 
 # Dorong perubahan ke branch utama di remote repository
-git push origin main
+git push -u sorigin main
