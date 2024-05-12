@@ -8,7 +8,7 @@ git add . -- ':!node_modules'
 
 # Lakukan commit dengan pesan yang berisi tanggal dan waktu saat ini
 commit_message=$(date)
-git commit -am "$commit_message"
+git commit -m "$commit_message"
 
 # Tarik perubahan terbaru dari branch utama di remote repository
 git pull origin main
