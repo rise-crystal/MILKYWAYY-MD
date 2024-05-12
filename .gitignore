@@ -19,3 +19,10 @@ lib/
 media/
 plugins/
 session/
+config/
+database/
+event/
+lib/
+media/
+plugins/
+session/
