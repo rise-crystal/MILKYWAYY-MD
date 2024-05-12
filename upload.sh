@@ -4,7 +4,7 @@
 ls -a --ignore=".git" --ignore="node_modules" | sed '/^\.$/d' | sed '/^\.\.$/d' | sed '/^\.git$/d' | sed '/^node_modules$/d' >> .gitignore
 
 # Eksekusi git add untuk semua perubahan kecuali folder node_modules
-git add . -- ':!node_modules'
+git add -f -- ':!node_modules'
 
 # Lakukan commit dengan pesan yang lebih deskriptif
 commit_message="Update: $(date)"
