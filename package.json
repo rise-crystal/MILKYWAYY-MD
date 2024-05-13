@@ -1,7 +1,7 @@
 {
-  "name": "milkywayy-md",
-  "version": "9.4-pro",
-  "description": "Rise Crystal multi device, original base Arifi Razzaq",
+  "name": "highest-meta-md",
+  "version": "9.7-pro",
+  "description": "razzaq multi device, original base Arifi Razzaq",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -10,26 +10,25 @@
   },
   "scripts": {
     "test": "echo \"error: no test specified\" && exit 1",
-    "start": "node index.js --pairing-code",
-    "serve": "node index.js"
+    "start": "node index.js --pairing-code"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rise-crystal/MILKYWAYY-MD.git"
+    "url": "git+https://github.com/vrzaq/razzaq-md.git"
   },
   "keywords": [
     "bot-whatsapp"
   ],
   "author": {
     "name": "arifi razzaq",
-    "email": "risecrystal0@gmail.com",
-    "url": "https://www.youtube.com/@risecrystal3570"
+    "email": "vr.zaq1@gmail.com",
+    "url": "https://youtube.com/@khirazzdev?si=pWE56RblRs85a_Bp"
   },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vrzaq/razzaq-md/issues"
   },
-  "homepage": "https://github.com/rise-crystal/MILKYWAYY-MD/blob/main/README.md",
+  "homepage": "https://github.com/vrzaq/razzaq-md#readme",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",
     "awesome-phonenumber": "^6.4.0",
@@ -49,7 +48,6 @@
     "jimp": "^0.16.13",
     "moment-timezone": "^0.5.45",
     "newsapi": "^2.4.1",
-    "node-cache": "^5.1.2",
     "node-cron": "^3.0.3",
     "node-notifier": "^10.0.1",
     "node-printer": "^1.0.4",
@@ -57,7 +55,6 @@
     "openai": "^4.28.4",
     "parse-ms": "^4.0.0",
     "pdfkit": "^0.14.0",
-    "pino": "^9.0.0",
     "qrcode": "^1.5.3",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
