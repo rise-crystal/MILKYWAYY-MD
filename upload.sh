@@ -11,7 +11,15 @@ commit_message="Update: $(date)"
 git commit -m "$commit_message"
 
 # Tarik perubahan terbaru dari branch utama di remote repository
-git pull origin main || { echo "Gagal menarik perubahan dari remote repository"; exit 1; }
 
-# Dorong perubahan ke branch utama di remote repository
-git push -u origin main || { echo "Gagal mendorong perubahan ke remote repository"; exit 1; }
+# Tarik perubahan dari remote repository 'origin'
+git pull origin main || { echo "Gagal menarik perubahan dari remote repository 'origin'"; exit 1; }
+
+# Dorong perubahan ke branch utama di remote repository 'origin'
+git push -u origin main || { echo "Gagal mendorong perubahan ke remote repository 'origin'"; exit 1; }
+
+# Tarik perubahan dari remote repository 'github'
+git pull github main || { echo "Gagal menarik perubahan dari remote repository 'github'"; exit 1; }
+
+# Dorong perubahan ke branch utama di remote repository 'github'
+git push -u github main || { echo "Gagal mendorong perubahan ke remote repository 'github'"; exit 1; }
