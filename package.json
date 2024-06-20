@@ -37,6 +37,7 @@
     "chokidar": "^3.6.0",
     "cli-table": "^0.3.11",
     "csv-writer": "^1.6.0",
+    "esm": "^3.2.25",
     "fb-video-downloader": "^1.0.3",
     "file-type": "^16.5.4",
     "fluent-ffmpeg": "^2.1.2",
